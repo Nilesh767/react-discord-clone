@@ -1,3 +1,12 @@
+:root {
+  --blurple: #7289da;
+  --fullWhite: #ffffff;
+  --greyple: #99aab5;
+  --darkNotBlack: #2c2f33;
+  --quiteNotBlack: #23272a;
+  --fullBlack: #000000;
+}
+
 * {
   margin: 0;
 }
