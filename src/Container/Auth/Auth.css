@@ -1,0 +1,89 @@
+.auth {
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.authLogo {
+  position: fixed;
+  top: 50px;
+  left: 100px;
+}
+
+.authBox {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #36393f;
+  box-shadow: 0 1px 4px rgba(179, 178, 178, 0.12),
+    0 1px 2px rgba(172, 170, 170, 0.24);
+}
+
+.authHeader {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.authHeader > h2 {
+  line-height: 32px;
+  margin-bottom: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.authHeader > h3 {
+  line-height: 22px;
+  font-size: 1.1rem;
+  color: #72767d;
+  font-weight: 400;
+}
+
+.authForm > form > input {
+  height: 40px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 20px;
+  min-width: 350px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: var(--quiteNotBlack);
+}
+
+.authForm > form > button {
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  min-width: 390px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: var(--blurple);
+}
+
+.authForm > form > button:hover {
+  opacity: 0.8;
+}
+
+.authFooter {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.authSwitch > span {
+  padding-left: 3px;
+  color: var(--blurple);
+}
+
+.authSwitch > span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
