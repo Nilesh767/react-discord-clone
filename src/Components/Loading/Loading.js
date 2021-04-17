@@ -5,7 +5,7 @@ const Loading = () => {
   return (
     <div className="loading">
       <img src={discordSpinner} alt="Discord Spinner" />
-      UwU Loading ...
+      <i>UwU Loading ...</i>
     </div>
   );
 };
