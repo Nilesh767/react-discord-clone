@@ -1,0 +1,8 @@
+.home {
+  height: 100vh;
+  display: flex;
+}
+
+.home__serverSidebar {
+  flex: 0.12;
+}

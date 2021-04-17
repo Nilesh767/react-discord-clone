@@ -1,0 +1,13 @@
+.loading {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  background-color: var(--quiteNotBlack);
+}
+
+.loading > img {
+  margin-bottom: 215x;
+}
