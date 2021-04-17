@@ -25,6 +25,8 @@ const Login = () => {
       .catch((error) => {
         toast.error(error.message);
       });
+
+    history.push("/home");
   };
 
   const register = (event) => {
@@ -37,6 +39,8 @@ const Login = () => {
       .catch((error) => {
         toast.error(error.message);
       });
+
+    history.push("/home");
   };
 
   const signUpHandler = () => {
