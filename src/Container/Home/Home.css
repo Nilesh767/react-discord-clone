@@ -3,6 +3,23 @@
   display: flex;
 }
 
+.home > svg {
+  bottom: 0;
+  padding: 15px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 50px;
+  position: absolute;
+  background-color: var(--darkNotBlack);
+  transition: ease 250ms;
+}
+
+.home > svg:hover {
+  border-radius: 18px;
+  transition: ease 250ms;
+  background-color: var(--blurple);
+}
+
 .home__serverSidebar {
-  flex: 0.12;
+  width: 75px;
 }

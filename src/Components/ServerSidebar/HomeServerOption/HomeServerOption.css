@@ -1,0 +1,20 @@
+.homeServerOption {
+  width: 70%;
+  margin: 10px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 45px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--darkNotBlack);
+  transition: all 250ms ease-in-out;
+}
+.homeServerOption:hover {
+  border-radius: 15px;
+  transition: ease 200ms;
+  background-color: var(--blurple);
+}
+
+.homeServerOption > img {
+  width: 50px;
+}

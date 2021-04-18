@@ -1,0 +1,12 @@
+.homeServer {
+  color: #fff;
+  border-bottom: 3px solid var(--darkNotBlack);
+  border-radius: 5px;
+}
+
+.userServers > hr {
+  margin: auto;
+  width: 50%;
+  border: 1px solid var(--darkNotBlack);
+  border-radius: 1px;
+}

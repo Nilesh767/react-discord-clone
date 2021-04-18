@@ -1,0 +1,50 @@
+.serverName {
+  width: 70%;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 45px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--darkNotBlack);
+  transition: all 250ms ease-in-out;
+}
+
+.serverName:hover {
+  border-radius: 15px;
+  transition: ease 250ms;
+  background-color: var(--blurple);
+}
+
+.serverName > img {
+  width: 30px;
+  height: 30px;
+  transition: all 250ms ease-in-out;
+}
+
+.serverName > img:hover {
+  transition: ease 250ms;
+  background-color: var(--blurple);
+}
+
+.addServer {
+  width: 70%;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 45px;
+  align-items: center;
+  color: #43b581;
+  justify-content: center;
+  background-color: var(--darkNotBlack);
+  transition: all 250ms ease-in-out;
+}
+
+.addServer:hover {
+  border-radius: 15px;
+  transition: ease 250ms;
+  background-color: #43b581;
+  color: #fff;
+}
