@@ -10,10 +10,10 @@ import "./Auth.css";
 import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
-  const [isSignUp, setIsSignUp] = useState(false);
   const emailRef = useRef(null);
   const passwordRef = useRef(null);
   const history = useHistory();
+  const [isSignUp, setIsSignUp] = useState(false);
 
   const signIn = (event) => {
     event.preventDefault();

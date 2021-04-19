@@ -5,7 +5,7 @@ const initialState = {
 };
 
 const appSlice = createSlice({
-  name: "user",
+  name: "app",
   initialState,
   reducers: {
     enterServer: (state, action) => {
