@@ -1,4 +1,5 @@
 import { useCollection } from "react-firebase-hooks/firestore";
+import { useHistory } from "react-router";
 
 import { db } from "../../api/firebase";
 
@@ -6,7 +7,6 @@ import ServerSidebarOption from "./ServerSidebarOption/ServerSidebarOption";
 import HomeServerOption from "./HomeServerOption/HomeServerOption";
 
 import "./ServerSidebar.css";
-import { useHistory } from "react-router";
 
 const ServerSidebar = () => {
   const history = useHistory();
